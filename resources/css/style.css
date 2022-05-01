@@ -63,6 +63,27 @@ section h2 {
     url("../images/project1.png");
 }
 
+/* Skills */
+
+.skill-list {
+  list-style: none;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill i {
+  font-size: 4rem;
+  padding-bottom: 0.5rem;
+}
+
+.skill-name {
+  font-weight: bold;
+}
+
 /* Contact Form */
 
 .custom-form {

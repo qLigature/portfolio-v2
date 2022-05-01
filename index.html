@@ -16,6 +16,11 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <!-- Dev Icons CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
+    />
     <link rel="stylesheet" href="./resources/css/style.css" />
     <link rel="stylesheet" href="./resources/css/layout.css" />
     <link rel="stylesheet" href="./resources/css/card.css" />
@@ -27,13 +32,13 @@
     <!-- Sidebar -->
     <nav class="sidebar">
       <div class="custom-btn">
-        <a href="#intro" class="intro-btn"><span>Intro</span></a>
-      </div>
-      <div class="custom-btn">
         <a href="#about"><span>About</span></a>
       </div>
       <div class="custom-btn">
         <a href="#projects"><span>Projects</span></a>
+      </div>
+      <div class="custom-btn">
+        <a href="#skills"><span>Skills</span></a>
       </div>
       <div class="custom-btn">
         <a href="#contact"><span>Contact</span></a>
@@ -54,8 +59,8 @@
       <section id="about" class="about">
         <h2>About Me</h2>
         <p class="about-text">
-          As a full-stack engineer, I'm happy working on both the frontend and
-          backend side to create a better user experience.
+          As a full-stack developer, I'm happy working on both the frontend and
+          backend side to solve problems and create a better user experience.
         </p>
         <p class="about-text">
           Whether it's designing and building a landing page for a construction
@@ -94,8 +99,12 @@
           </div>
 
           <div class="project-card project1 col-12 col-sm-5">
-            <h3 class="project-title">Responsive Portfolio Website v1.0</h3>
-            <p class="project-tools">HTML CSS JavaScript Bootstrap</p>
+            <h3 class="project-title">
+              Drone Delivery Platform for Emergency Supplies
+            </h3>
+            <p class="project-tools">
+              HTML CSS JavaScript Bootstrap Handlebars.js
+            </p>
             <ul class="project-links">
               <li><a href="#" class="project-demo">Demo</a></li>
               <li><a href="#" class="project-source">GitHub</a></li>
@@ -146,18 +155,99 @@
       </section>
 
       <!-- Tools/Skills -->
-      <section class="tools">
-        <h2>My Toolset</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus
-          venenatis felis vitae lobortis. Donec semper est eget sem fermentum
-          semper. Ut eleifend, mi eu fermentum ullamcorper, ante felis
-          scelerisque nulla, at ultrices odio massa sed est. Duis vel
-          condimentum magna. Donec semper velit vitae sagittis pharetra. In at
-          neque quis arcu bibendum sodales eu dictum leo. Duis semper commodo
-          vehicula. Morbi hendrerit eu dolor aliquet malesuada. Curabitur
-          molestie dolor nisi, egestas semper purus aliquam et.
-        </p>
+      <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul class="skill-list row">
+          <li class="skill col-6 col-sm-4 col-md-2 col-lg-3 col-xl-2">
+            <i class="devicon-html5-plain"></i>
+            <p class="skill-name">HTML 5</p>
+          </li>
+
+          <li class="skill col-6 col-sm-4 col-md-2 col-lg-3 col-xl-2">
+            <i class="devicon-css3-plain"></i>
+            <p class="skill-name">CSS 3</p>
+          </li>
+
+          <li class="skill col-6 col-sm-4 col-md-2 col-lg-3 col-xl-2">
+            <i class="devicon-figma-plain"></i>
+            <p class="skill-name">Figma</p>
+          </li>
+
+          <li class="skill col-6 col-sm-4 col-md-2 col-lg-3 col-xl-2">
+            <i class="devicon-javascript-plain"></i>
+            <p class="skill-name">JavaScript</p>
+          </li>
+
+          <li class="skill col-6 col-sm-4 col-md-2 col-lg-3 col-xl-2">
+            <i class="devicon-bootstrap-plain"></i>
+            <p class="skill-name">Bootstrap 5</p>
+          </li>
+
+          <li class="skill col-6 col-sm-4 col-md-2 col-lg-3 col-xl-2">
+            <i class="devicon-handlebars-plain"></i>
+            <p class="skill-name">Handlebars.js</p>
+          </li>
+
+          <li class="skill col-6 col-sm-4 col-md-2 col-lg-3 col-xl-2">
+            <i class="devicon-jest-plain"></i>
+            <p class="skill-name">Jest</p>
+          </li>
+
+          <li class="skill col-6 col-sm-4 col-md-2 col-lg-3 col-xl-2">
+            <i class="devicon-postgresql-plain"></i>
+            <p class="skill-name">PostgreSQL</p>
+          </li>
+
+          <li class="skill col-6 col-sm-4 col-md-2 col-lg-3 col-xl-2">
+            <i class="devicon-mongodb-plain"></i>
+            <p class="skill-name">MongoDB</p>
+          </li>
+
+          <li class="skill col-6 col-sm-4 col-md-2 col-lg-3 col-xl-2">
+            <i class="devicon-express-original"></i>
+            <p class="skill-name">Express.js</p>
+          </li>
+
+          <li class="skill col-6 col-sm-4 col-md-2 col-lg-3 col-xl-2">
+            <i class="devicon-react-original"></i>
+            <p class="skill-name">ReactJS</p>
+          </li>
+
+          <li class="skill col-6 col-sm-4 col-md-2 col-lg-3 col-xl-2">
+            <i class="devicon-redux-original"></i>
+            <p class="skill-name">Redux</p>
+          </li>
+
+          <li class="skill col-6 col-sm-4 col-md-2 col-lg-3 col-xl-2">
+            <i class="devicon-nodejs-plain"></i>
+            <p class="skill-name">Node.js</p>
+          </li>
+
+          <li class="skill col-6 col-sm-4 col-md-2 col-lg-3 col-xl-2">
+            <i class="devicon-python-plain"></i>
+            <p class="skill-name">Python</p>
+          </li>
+
+          <li class="skill col-6 col-sm-4 col-md-2 col-lg-3 col-xl-2">
+            <i class="devicon-linux-plain"></i>
+            <p class="skill-name">Linux</p>
+          </li>
+
+          <li class="skill col-6 col-sm-4 col-md-2 col-lg-3 col-xl-2">
+            <i class="devicon-bash-plain"></i>
+            <p class="skill-name">Bash</p>
+          </li>
+
+          <li class="skill col-6 col-sm-4 col-md-2 col-lg-3 col-xl-2">
+            <i class="devicon-git-plain"></i>
+            <p class="skill-name">Git</p>
+          </li>
+
+          <li class="skill col-6 col-sm-4 col-md-2 col-lg-3 col-xl-2">
+            <i class="devicon-gitlab-plain"></i>
+            <p class="skill-name">GitLab</p>
+          </li>
+        </ul>
       </section>
 
       <!-- Contact -->
