@@ -1,0 +1,46 @@
+.project-card {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: end;
+  height: 20rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+}
+
+.project-card:hover {
+  transform: scale(1.01, 1.01);
+  cursor: pointer;
+}
+
+.project-title {
+  font-weight: bold;
+}
+
+.project-tools {
+  color: gray;
+  font-size: 0.8rem;
+  word-spacing: 0.4rem;
+}
+
+.project-links {
+  list-style: none;
+  padding-left: 0;
+}
+
+.project-links li {
+  display: inline-block;
+}
+
+.project-demo {
+  color: white;
+  font-weight: bold;
+  margin-right: 0.5rem;
+  text-decoration: none;
+}
+
+.project-source {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}

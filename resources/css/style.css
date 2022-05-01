@@ -10,14 +10,14 @@ body {
 }
 
 section {
+  padding-top: 4rem;
   margin-bottom: 8rem;
-  width: 80%;
 }
 
 section h2 {
   font-weight: bold;
   color: gray;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 /* Sidebar */
@@ -36,12 +36,29 @@ section h2 {
 
 .intro {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
   height: 100%;
+  padding-top: 0;
   margin-bottom: 0;
 }
 
 .intro-text {
   font-size: 3rem;
   font-weight: bold;
+}
+
+/* Projects */
+
+.project1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.274), rgba(0, 0, 0, 0.884)),
+    url("../images/project1.png");
+}
+
+.project1:hover {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(0, 0, 0, 0.781)
+    ),
+    url("../images/project1.png");
 }

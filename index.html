@@ -18,6 +18,7 @@
     />
     <link rel="stylesheet" href="./resources/css/style.css" />
     <link rel="stylesheet" href="./resources/css/layout.css" />
+    <link rel="stylesheet" href="./resources/css/card.css" />
     <link rel="stylesheet" href="./resources/css/button.css" />
 
     <title>Jacob Reyes - Portfolio</title>
@@ -39,28 +40,19 @@
       </div>
     </nav>
 
-    <main>
+    <main class="container ml-2">
       <!-- Intro -->
       <section id="intro" class="intro">
+        <h1 class="intro-text">Hi, my name is Jacob Reyes.</h1>
         <h1 class="intro-text">
-          Hi, my name is Jacob Reyes. I'm a full-stack developer focused on
-          creating beautiful and functional experiences.
+          I'm a full-stack developer focused on creating beautiful and
+          functional experiences.
         </h1>
       </section>
 
       <!-- About -->
-      <section class="about">
-        <h2 id="about">About Me</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus
-          venenatis felis vitae lobortis. Donec semper est eget sem fermentum
-          semper. Ut eleifend, mi eu fermentum ullamcorper, ante felis
-          scelerisque nulla, at ultrices odio massa sed est. Duis vel
-          condimentum magna. Donec semper velit vitae sagittis pharetra. In at
-          neque quis arcu bibendum sodales eu dictum leo. Duis semper commodo
-          vehicula. Morbi hendrerit eu dolor aliquet malesuada. Curabitur
-          molestie dolor nisi, egestas semper purus aliquam et.
-        </p>
+      <section id="about" class="about">
+        <h2>About Me</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus
           venenatis felis vitae lobortis. Donec semper est eget sem fermentum
@@ -74,18 +66,36 @@
       </section>
 
       <!-- Projects -->
-      <section class="projects">
-        <h2 id="projects">Projects</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus
-          venenatis felis vitae lobortis. Donec semper est eget sem fermentum
-          semper. Ut eleifend, mi eu fermentum ullamcorper, ante felis
-          scelerisque nulla, at ultrices odio massa sed est. Duis vel
-          condimentum magna. Donec semper velit vitae sagittis pharetra. In at
-          neque quis arcu bibendum sodales eu dictum leo. Duis semper commodo
-          vehicula. Morbi hendrerit eu dolor aliquet malesuada. Curabitur
-          molestie dolor nisi, egestas semper purus aliquam et.
-        </p>
+      <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <article class="row project-grid gap-5">
+          <div class="project-card project1 col-12 col-sm-5">
+            <h3 class="project-title">Company Landing Page</h3>
+            <p class="project-tools">HTML CSS JavaScript Bootstrap</p>
+            <ul class="project-links">
+              <li><a href="#" class="project-demo">Demo</a></li>
+              <li><a href="#" class="project-source">GitHub</a></li>
+            </ul>
+          </div>
+
+          <div class="project-card project1 col-12 col-sm-5">
+            <h3 class="project-title">Company Landing Page</h3>
+            <p class="project-tools">HTML CSS JavaScript Bootstrap</p>
+            <ul class="project-links">
+              <li><a href="#" class="project-demo">Demo</a></li>
+              <li><a href="#" class="project-source">GitHub</a></li>
+            </ul>
+          </div>
+
+          <div class="project-card project1 col-12 col-sm-5">
+            <h3 class="project-title">Company Landing Page</h3>
+            <p class="project-tools">HTML CSS JavaScript Bootstrap</p>
+            <ul class="project-links">
+              <li><a href="#" class="project-demo">Demo</a></li>
+              <li><a href="#" class="project-source">GitHub</a></li>
+            </ul>
+          </div>
+        </article>
       </section>
 
       <!-- Tools/Skills -->
@@ -104,8 +114,8 @@
       </section>
 
       <!-- Contact -->
-      <section class="contact">
-        <h2 id="contact">Contact</h2>
+      <section id="contact" class="contact">
+        <h2>Contact</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus
           venenatis felis vitae lobortis. Donec semper est eget sem fermentum
