@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+section {
+  margin-bottom: 8rem;
+  width: 80%;
+}
+
+section h2 {
+  font-weight: bold;
+  color: gray;
+  margin-bottom: 1.5rem;
+}
+
+/* Sidebar */
+
+.sidebar .custom-btn {
+  width: 200px;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+}
+
+.sidebar .custom-btn:last-child {
+  margin-bottom: 0;
+}
+
+/* Intro */
+
+.intro {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-bottom: 0;
+}
+
+.intro-text {
+  font-size: 3rem;
+  font-weight: bold;
+}
