@@ -14,6 +14,10 @@ main {
   scroll-behavior: smooth;
 }
 
+section {
+  width: 85%;
+}
+
 .sidebar {
   grid-area: 1 / 1 / 7 / 2;
   height: 100%;
@@ -21,4 +25,56 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
+}
+
+.project-grid {
+  margin-left: 0.5rem;
+}
+
+@media only screen and (max-width: 62em) {
+  body {
+    display: block;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  main {
+    height: auto;
+    padding-left: 1rem !important;
+    width: 90%;
+  }
+
+  section {
+    width: 100%;
+  }
+
+  .intro {
+    height: 100vh;
+  }
+
+  .project-grid {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .project-card {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 36em) {
+  .intro-text {
+    font-size: 2rem;
+  }
+
+  main {
+    margin-left: 2rem;
+  }
+
+  .project-card {
+    width: 85%;
+  }
 }
