@@ -37,3 +37,8 @@
 .custom-btn a:hover:after {
   width: 100%;
 }
+
+.custom-submit-btn a:after {
+  left: 0;
+  right: initial;
+}

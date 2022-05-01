@@ -62,3 +62,17 @@ section h2 {
     ),
     url("../images/project1.png");
 }
+
+/* Contact Form */
+
+.custom-form {
+  background-color: transparent !important;
+  color: white !important;
+  font-size: 1.25rem;
+  border-radius: 0 !important;
+}
+
+.custom-form:focus {
+  box-shadow: none !important;
+  border-color: white !important;
+}

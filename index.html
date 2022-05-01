@@ -40,7 +40,7 @@
       </div>
     </nav>
 
-    <main class="container ml-2">
+    <main class="container">
       <!-- Intro -->
       <section id="intro" class="intro">
         <h1 class="intro-text">Hi, my name is Jacob Reyes.</h1>
@@ -68,7 +68,7 @@
       <!-- Projects -->
       <section id="projects" class="projects">
         <h2>Projects</h2>
-        <article class="row project-grid gap-5">
+        <article class="row project-grid gap-5 gap-md-3 gap-lg-5">
           <div class="project-card project1 col-12 col-sm-5">
             <h3 class="project-title">Company Landing Page</h3>
             <p class="project-tools">HTML CSS JavaScript Bootstrap</p>
@@ -116,16 +116,52 @@
       <!-- Contact -->
       <section id="contact" class="contact">
         <h2>Contact</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus
-          venenatis felis vitae lobortis. Donec semper est eget sem fermentum
-          semper. Ut eleifend, mi eu fermentum ullamcorper, ante felis
-          scelerisque nulla, at ultrices odio massa sed est. Duis vel
-          condimentum magna. Donec semper velit vitae sagittis pharetra. In at
-          neque quis arcu bibendum sodales eu dictum leo. Duis semper commodo
-          vehicula. Morbi hendrerit eu dolor aliquet malesuada. Curabitur
-          molestie dolor nisi, egestas semper purus aliquam et.
+        <p class="mb-4">
+          Have any questions? Want to build something amazing together?
         </p>
+        <div class="row">
+          <div
+            class="col-10 col-md-8 col-lg-8 offset-1 offset-md-0 offset-lg-0 mb-1"
+          >
+            <form>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Name"
+                class="form-control custom-form mb-3"
+                required
+              />
+
+              <input
+                type="email"
+                name="email"
+                id="txt-email"
+                placeholder="Email"
+                class="form-control custom-form mb-3"
+                required
+              />
+
+              <textarea
+                id="txt-message"
+                placeholder="Message"
+                class="form-control custom-form mb-3"
+                rows="6"
+                style="resize: none"
+                required
+              ></textarea>
+
+              <!-- <button type="submit" class="btn btn-block bg-success text-white">Submit</button> -->
+              <div class="custom-btn custom-submit-btn">
+                <a
+                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                  target="_blank"
+                  ><span>Send</span></a
+                >
+              </div>
+            </form>
+          </div>
+        </div>
       </section>
     </main>
 

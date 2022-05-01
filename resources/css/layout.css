@@ -42,7 +42,6 @@ section {
 
   main {
     height: auto;
-    padding-left: 1rem !important;
     width: 90%;
   }
 
@@ -72,6 +71,8 @@ section {
 
   main {
     margin-left: 2rem;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
   }
 
   .project-card {
