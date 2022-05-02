@@ -1,6 +1,9 @@
+// For Typewriting Effect in Intro Text
 const Typewriter = window.Typewriter;
 const introTagline = document.getElementById("intro-tagline");
-const width = window.innerWidth > 0 ? window.innerWidth : screen.width;
+
+const screenWidth = window.innerWidth > 0 ? window.innerWidth : screen.width;
+const laptopWidth = 992;
 
 const typewriter = new Typewriter(introTagline, {
   loop: true,
@@ -8,7 +11,7 @@ const typewriter = new Typewriter(introTagline, {
   deleteSpeed: 20,
 });
 
-const initialDelay = width > 992 ? 1500 : 1300;
+const initialDelay = screenWidth > laptopWidth ? 1500 : 1300;
 const waitTime = 1000;
 const typeDelay = 500;
 
