@@ -10,14 +10,15 @@ body {
 }
 
 section {
-  padding-top: 4rem;
-  margin-bottom: 8rem;
+  padding-top: 6rem;
+  margin-bottom: 6rem;
 }
 
 section h2 {
+  font-size: 1.6rem;
   font-weight: bold;
   color: gray;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 /* Sidebar */
@@ -128,6 +129,10 @@ section h2 {
 }
 
 /* Contact Form */
+
+.contact {
+  padding-top: 4.5rem;
+}
 
 .custom-form {
   background-color: transparent !important;
