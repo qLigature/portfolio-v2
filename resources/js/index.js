@@ -11,7 +11,7 @@ const typewriter = new Typewriter(introTagline, {
   deleteSpeed: 20,
 });
 
-const initialDelay = screenWidth > laptopWidth ? 1500 : 1300;
+const initialDelay = screenWidth > laptopWidth ? 1600 : 1300;
 const waitTime = 1000;
 const typeDelay = 500;
 
