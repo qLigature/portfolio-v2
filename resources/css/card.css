@@ -14,6 +14,7 @@
 }
 
 .project-title {
+  font-size: 1.3rem;
   font-weight: bold;
 }
 
@@ -40,7 +41,7 @@
 }
 
 .project-demo:hover {
-  color: green;
+  color: gray;
 }
 
 .project-source {
@@ -50,5 +51,5 @@
 }
 
 .project-source:hover {
-  color: green;
+  color: gray;
 }
