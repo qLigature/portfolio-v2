@@ -44,6 +44,19 @@ section {
   width: 90%;
 }
 
+/* Laptops */
+@media only screen and (max-width: 1292px) {
+  .intro-text {
+    font-size: 2.4rem;
+  }
+}
+
+@media only screen and (max-width: 1040px) {
+  .intro-text {
+    font-size: 2.3rem;
+  }
+}
+
 /* Tablets */
 @media only screen and (max-width: 62em) {
   body {
