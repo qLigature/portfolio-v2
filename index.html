@@ -37,9 +37,6 @@
             reference: "vh",
           },
         },
-        onResize: function () {
-          console.log("Kyaru");
-        },
       }).init();
     </script>
 
@@ -47,22 +44,26 @@
   </head>
   <body>
     <!-- Sidebar -->
-    <nav class="sidebar">
-      <div class="custom-btn about-btn">
-        <a href="#about"><span>About</span></a>
+    <nav id="sidebar-nav" class="sidebar nav">
+      <div class="custom-btn about-btn nav-item">
+        <a href="#about" class="nav-link"><span>About</span></a>
       </div>
-      <div class="custom-btn projects-btn">
-        <a href="#projects"><span>Projects</span></a>
+      <div class="custom-btn projects-btn nav-item">
+        <a href="#projects" class="nav-link"><span>Projects</span></a>
       </div>
-      <div class="custom-btn skills-btn">
-        <a href="#skills"><span>Skills</span></a>
+      <div class="custom-btn skills-btn nav-item">
+        <a href="#skills" class="nav-link"><span>Skills</span></a>
       </div>
-      <div class="custom-btn contact-btn">
-        <a href="#contact"><span>Contact</span></a>
+      <div class="custom-btn contact-btn nav-item">
+        <a href="#contact" class="nav-link"><span>Contact</span></a>
       </div>
     </nav>
 
-    <main class="vh_height100">
+    <main
+      class="vh_height100"
+      data-bs-spy="scroll"
+      data-bs-target="#sidebar-nav"
+    >
       <!-- Intro -->
       <section id="intro" class="intro vh_height100 container">
         <h1 class="intro-text">Hi, my name is Jacob Reyes.</h1>
