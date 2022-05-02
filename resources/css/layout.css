@@ -35,6 +35,10 @@ section {
   margin-left: 0.5rem;
 }
 
+.skill-list {
+  padding-left: 0;
+}
+
 @media only screen and (max-width: 62em) {
   body {
     display: block;
