@@ -38,6 +38,10 @@
   width: 100%;
 }
 
+.custom-submit-btn a {
+  border: 1px solid white;
+}
+
 .custom-submit-btn a:after {
   left: 0;
   right: initial;
