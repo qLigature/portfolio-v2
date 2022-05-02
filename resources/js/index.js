@@ -8,7 +8,7 @@ const typewriter = new Typewriter(introTagline, {
   deleteSpeed: 20,
 });
 
-const initialDelay = width > 992 ? 1500 : 1000;
+const initialDelay = width > 992 ? 1500 : 1300;
 const waitTime = 1000;
 const typeDelay = 500;
 

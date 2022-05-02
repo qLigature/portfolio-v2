@@ -5,7 +5,7 @@
 .intro-text,
 .scrolldown-indicator {
   opacity: 0;
-  animation: fadein 1.5s;
+  animation: fadein 1s;
   animation-fill-mode: forwards;
 }
 
