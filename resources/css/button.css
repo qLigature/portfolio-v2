@@ -20,7 +20,7 @@
   z-index: 2;
 }
 
-.custom-btn a:after {
+.custom-btn a::after {
   position: absolute;
   content: "";
   top: 0;
@@ -31,11 +31,22 @@
   transition: all 0.35s;
 }
 
+/* ::hover state - when user hovers over the button */
 .custom-btn a:hover {
   color: black;
 }
 
-.custom-btn a:hover:after {
+.custom-btn a:hover::after {
+  width: 100%;
+}
+
+/* .active state - when user is inside a certain section */
+.custom-btn a.active {
+  color: white;
+}
+
+.custom-btn a.active::after {
+  background: green;
   width: 100%;
 }
 
@@ -43,7 +54,7 @@
   border: 1px solid white;
 }
 
-.custom-submit-btn a:after {
+.custom-submit-btn a::after {
   left: 0;
   right: initial;
 }
