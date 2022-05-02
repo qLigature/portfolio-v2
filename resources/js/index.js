@@ -50,22 +50,26 @@ const socialLinks = document.querySelector(".social-links");
 // Move sidebar buttons up when window is scrolled, up to a certain point
 const sidebarLimit = 100;
 
+const scrollCheck = () => {
+  // console.log(`(${main.scrollLeft}, ${main.scrollTop})`);
+
+  if (main.scrollTop > sidebarLimit) return;
+  if (main.scrollTop > 0) {
+    dummyDiv.style.display = "block";
+    socialLinks.style.display = "block";
+    socialLinks.classList.remove("fade-out");
+    socialLinks.classList.add("fade-in");
+  } else {
+    socialLinks.classList.remove("fade-in");
+    socialLinks.classList.add("fade-out");
+  }
+
+  sidebarBtns.style.bottom = `${main.scrollTop}px`;
+  socialLinks.style.bottom = `${main.scrollTop}px`;
+};
+
+scrollCheck();
+
 if (screenWidth >= laptopWidth) {
-  main.addEventListener("scroll", () => {
-    // console.log(`(${main.scrollLeft}, ${main.scrollTop})`);
-
-    if (main.scrollTop > sidebarLimit) return;
-    if (main.scrollTop > 0) {
-      dummyDiv.style.display = "block";
-      socialLinks.style.display = "block";
-      socialLinks.classList.remove("fade-out");
-      socialLinks.classList.add("fade-in");
-    } else {
-      socialLinks.classList.remove("fade-in");
-      socialLinks.classList.add("fade-out");
-    }
-
-    sidebarBtns.style.bottom = `${main.scrollTop}px`;
-    socialLinks.style.bottom = `${main.scrollTop}px`;
-  });
+  main.addEventListener("scroll", scrollCheck);
 }

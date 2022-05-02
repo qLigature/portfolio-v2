@@ -27,6 +27,12 @@ section {
   align-items: flex-end;
 }
 
+.sidebar .nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .sidebar .custom-btn {
   position: relative;
 }
@@ -101,6 +107,7 @@ section {
   .project-card {
     margin-left: auto;
     margin-right: auto;
+    width: 45%;
   }
 
   .skill-list {
@@ -125,6 +132,6 @@ section {
   }
 
   .project-card {
-    width: 85%;
+    width: 100%;
   }
 }
