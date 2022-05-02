@@ -10,7 +10,7 @@ body {
 main {
   grid-area: 1 / 2 / 7 / 4;
   overflow: auto;
-  height: 100vh;
+  /* height: 100vh; */
   scroll-behavior: smooth;
 }
 
@@ -25,6 +25,10 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
+}
+
+.intro-text {
+  width: 80%;
 }
 
 .about-text {
@@ -49,20 +53,21 @@ section {
   }
 
   main {
-    height: auto;
-    width: 90%;
+    /* height: auto; */
+    /* width: 90%; */
   }
 
   section {
-    width: 100%;
+    width: 90%;
   }
 
   .intro {
-    height: 100vh;
+    /* height: 100vh; */
   }
 
   .intro-text {
-    font-size: 2.7rem;
+    font-size: 2.5rem;
+    width: 100%;
   }
 
   .project-grid {
@@ -82,7 +87,7 @@ section {
   }
 
   main {
-    margin-left: 2rem;
+    /* margin-left: 1rem; */
     padding-left: 1.5rem !important;
     padding-right: 1.5rem !important;
   }

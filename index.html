@@ -28,6 +28,21 @@
     <link rel="stylesheet" href="./resources/css/scrolldown.css" />
     <link rel="stylesheet" href="./resources/css/fadein.css" />
 
+    <script src="./resources/js/vunit.js"></script>
+    <script>
+      new vUnit({
+        CSSMap: {
+          ".vh_height": {
+            property: "height",
+            reference: "vh",
+          },
+        },
+        onResize: function () {
+          console.log("Kyaru");
+        },
+      }).init();
+    </script>
+
     <title>Jacob Reyes - Portfolio</title>
   </head>
   <body>
@@ -47,9 +62,9 @@
       </div>
     </nav>
 
-    <main class="container">
+    <main class="vh_height100">
       <!-- Intro -->
-      <section id="intro" class="intro">
+      <section id="intro" class="intro vh_height100 container">
         <h1 class="intro-text">Hi, my name is Jacob Reyes.</h1>
         <h1 class="intro-text">
           I'm a full-stack developer focused on creating beautiful and
@@ -63,7 +78,7 @@
       </section>
 
       <!-- About -->
-      <section id="about" class="about">
+      <section id="about" class="about container">
         <h2>About Me</h2>
         <p class="about-text">
           As a full-stack developer, I'm happy working on both the frontend and
@@ -72,7 +87,7 @@
         <p class="about-text">
           Whether it's designing and building a landing page for a construction
           company, or building a secure and efficient server for room rentals,
-          being involved in every step of the app development process lends me a
+          being involved in every step of the development process lends me a
           unique perspective in solving various problems using software.
         </p>
         <p class="about-text">
@@ -84,7 +99,7 @@
       </section>
 
       <!-- Projects -->
-      <section id="projects" class="projects">
+      <section id="projects" class="projects container">
         <h2>Projects</h2>
         <article class="row project-grid gap-5 gap-md-3 gap-lg-5">
           <div class="project-card project1 col-12 col-sm-5">
@@ -162,7 +177,7 @@
       </section>
 
       <!-- Tools/Skills -->
-      <section id="skills" class="skills">
+      <section id="skills" class="skills container">
         <h2>Skills</h2>
         <ul class="skill-list row">
           <li class="skill col-6 col-sm-4 col-md-2 col-lg-3 col-xl-2">
@@ -258,7 +273,7 @@
       </section>
 
       <!-- Contact -->
-      <section id="contact" class="contact">
+      <section id="contact" class="contact container">
         <h2>Contact</h2>
         <p class="mb-4">
           Have any questions? Want to build something amazing together?
