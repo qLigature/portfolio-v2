@@ -1,3 +1,4 @@
+/* Fade in animation upon page load */
 .about-btn,
 .projects-btn,
 .skills-btn,
@@ -10,7 +11,7 @@
 }
 
 .intro-text {
-  animation-delay: 0.3s;
+  animation-delay: 0.4s;
 }
 
 .scrolldown-indicator {
@@ -33,11 +34,34 @@
   animation-delay: 1.3s;
 }
 
+/* Fade in animation upon scroll down */
+.fade-in {
+  animation: fadein 0.4s;
+  animation-fill-mode: forwards;
+}
+
+/* Fade out animation upon return to initial position */
+.fade-out {
+  animation: fadeout 0.3s;
+  animation-fill-mode: forwards;
+}
+
 @keyframes fadein {
   from {
     opacity: 0;
   }
   to {
     opacity: 1;
+    pointer-events: auto;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    pointer-events: none;
   }
 }

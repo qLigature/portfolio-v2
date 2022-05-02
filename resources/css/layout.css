@@ -27,6 +27,10 @@ section {
   align-items: flex-end;
 }
 
+.sidebar .custom-btn {
+  position: relative;
+}
+
 .intro-text {
   width: 80%;
 }
