@@ -3,7 +3,7 @@ const introTagline = document.getElementById("intro-tagline");
 
 const typewriter = new Typewriter(introTagline, {
   loop: true,
-  delay: 70,
+  delay: 60,
   deleteSpeed: 20,
 });
 
@@ -32,6 +32,5 @@ typewriter
   .typeString("solutions.")
   .pauseFor(waitTime)
   .deleteChars(10)
-  .pauseFor(typeDelay)
 
   .start();
