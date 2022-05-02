@@ -61,6 +61,10 @@ section {
     height: 100vh;
   }
 
+  .intro-text {
+    font-size: 2.7rem;
+  }
+
   .project-grid {
     margin-left: auto;
     margin-right: auto;
@@ -74,7 +78,7 @@ section {
 
 @media only screen and (max-width: 36em) {
   .intro-text {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   main {
