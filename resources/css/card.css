@@ -39,8 +39,16 @@
   text-decoration: none;
 }
 
+.project-demo:hover {
+  color: green;
+}
+
 .project-source {
   color: white;
   font-weight: bold;
   text-decoration: none;
+}
+
+.project-source:hover {
+  color: green;
 }
