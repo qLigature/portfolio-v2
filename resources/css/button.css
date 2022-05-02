@@ -41,13 +41,40 @@
 }
 
 /* .active state - when user is inside a certain section */
+
 .custom-btn a.active {
-  color: white;
+  color: black;
+}
+.custom-btn a.active::after {
+  width: 100%;
 }
 
-.custom-btn a.active::after {
-  background: green;
-  width: 100%;
+.about-btn a.active {
+  border: 2px solid #9adcff;
+}
+.about-btn a.active::after {
+  background: #9adcff;
+}
+
+.projects-btn a.active {
+  border: 2px solid #fff89a;
+}
+.projects-btn a.active::after {
+  background: #fff89a;
+}
+
+.skills-btn a.active {
+  border: 2px solid #ffb2a6;
+}
+.skills-btn a.active::after {
+  background: #ffb2a6;
+}
+
+.contact-btn a.active {
+  border: 2px solid #ff8aae;
+}
+.contact-btn a.active::after {
+  background: #ff8aae;
 }
 
 .custom-submit-btn a {
