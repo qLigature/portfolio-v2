@@ -1,0 +1,43 @@
+.about-btn,
+.projects-btn,
+.skills-btn,
+.contact-btn,
+.intro-text,
+.scrolldown-indicator {
+  opacity: 0;
+  animation: fadein 1.5s;
+  animation-fill-mode: forwards;
+}
+
+.intro-text {
+  animation-delay: 0.3s;
+}
+
+.scrolldown-indicator {
+  animation-delay: 1s;
+}
+
+.about-btn {
+  animation-delay: 0.7s;
+}
+
+.projects-btn {
+  animation-delay: 0.9s;
+}
+
+.skills-btn {
+  animation-delay: 1.1s;
+}
+
+.contact-btn {
+  animation-delay: 1.3s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
