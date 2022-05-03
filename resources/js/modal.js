@@ -4,8 +4,9 @@ Array.from(cards).forEach((card) => {
   // add event listener to each card
   const modalId = card.getAttribute("data-target");
   const modal = document.getElementById(modalId);
-  const closeBtn = modal.querySelector(".modal-close");
-  console.log(closeBtn);
+  // const closeBtn = modal.querySelector(".modal-close");
+  const closeIcon = modal.querySelector(".close-icon");
+  console.log(closeIcon);
 
   card.addEventListener("click", () => {
     // open modal
@@ -19,8 +20,13 @@ Array.from(cards).forEach((card) => {
     modal.style.display = "none";
   });
 
-  closeBtn.addEventListener("click", () => {
+  closeIcon.addEventListener("click", () => {
     modal.close();
     modal.style.display = "none";
   });
+
+  // closeBtn.addEventListener("click", () => {
+  //   modal.close();
+  //   modal.style.display = "none";
+  // });
 });

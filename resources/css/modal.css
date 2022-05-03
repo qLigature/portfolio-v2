@@ -5,6 +5,7 @@
   /* border-radius: 0.5rem; */
   height: 70vh;
   width: 70vw;
+  padding: 0;
   /* animation: modal-fadein 0.3s; */
   /* z-index: 999; */
   display: none;
@@ -29,4 +30,24 @@
 .modal-content {
   margin: 0;
   padding: 0;
+}
+
+/* Modal Bar (on top, contains close icon)  */
+.modal-bar {
+  text-align: right;
+  padding: 0.5rem 0.5rem;
+}
+
+/* Close icon */
+.close-icon {
+  width: 1.3rem;
+  height: 1.3rem;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(307deg)
+    brightness(104%) contrast(101%);
+}
+
+.close-icon:hover {
+  cursor: pointer;
+  filter: invert(79%) sepia(0%) saturate(9%) hue-rotate(191deg) brightness(88%)
+    contrast(85%);
 }
