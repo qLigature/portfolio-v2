@@ -4,7 +4,7 @@
   background-size: cover;
   justify-content: end;
   height: 20rem;
-  border-radius: 0.8rem;
+  /* border-radius: 0.8rem; */
   transition: all 0.2s;
 }
 
