@@ -13,6 +13,7 @@
   text-align: center;
   position: relative;
   transition: all 0.35s;
+  outline: none;
 }
 
 .custom-btn a span {
