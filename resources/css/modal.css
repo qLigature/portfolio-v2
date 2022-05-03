@@ -68,6 +68,28 @@
     contrast(85%);
 }
 
+/* External Link icon */
+.custom-modal-external {
+  position: relative;
+  top: -3px;
+  width: 1.3rem;
+  height: 1.3rem;
+  margin-right: 0.4rem;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(307deg)
+    brightness(104%) contrast(101%);
+}
+
+/* Github icon */
+.custom-modal-github {
+  position: relative;
+  top: -2px;
+  width: 1.3rem;
+  height: 1.3rem;
+  margin-right: 0.4rem;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(307deg)
+    brightness(104%) contrast(101%);
+}
+
 /* Modal Picture */
 .custom-modal-img {
   width: 100%;
@@ -91,4 +113,47 @@
   font-weight: bold;
   word-spacing: 0.4rem;
   color: gray;
+}
+
+.custom-modal-description {
+  margin-bottom: 0;
+}
+
+/* Modal Links */
+.custom-modal-links {
+  list-style: none;
+  padding-left: 1rem;
+  margin-bottom: 0;
+  display: flex;
+}
+
+.custom-modal-links li a {
+  height: 50px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.modal-demo {
+  color: white;
+  font-weight: bold;
+  margin-right: 1.5rem;
+  text-decoration: none;
+}
+
+.modal-demo:hover {
+  cursor: pointer;
+  filter: invert(79%) sepia(0%) saturate(9%) hue-rotate(191deg) brightness(88%)
+    contrast(85%);
+}
+
+.modal-source {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.modal-source:hover {
+  cursor: pointer;
+  filter: invert(79%) sepia(0%) saturate(9%) hue-rotate(191deg) brightness(88%)
+    contrast(85%);
 }
