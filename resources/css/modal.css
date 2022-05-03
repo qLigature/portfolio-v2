@@ -6,14 +6,13 @@
   height: 70vh;
   width: 70vw;
   padding: 0;
-  /* animation: modal-fadein 0.3s; */
-  /* z-index: 999; */
+  animation: modal-fadein 0.4s;
   display: none;
 }
 
 /* Outside of modal */
 .custom-modal::backdrop {
-  background: rgb(0 0 0 / 0.7);
+  background-color: rgb(0 0 0 / 0.7);
 }
 
 /* Fade in animation for modal when opened */
@@ -26,13 +25,28 @@
   }
 }
 
+/* Fade out animation for modal when closed */
+@keyframes modal-fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* Helper class for fade out animation */
+.modal-fadeout {
+  animation: modal-fadeout 0.3s;
+  animation-fill-mode: forwards;
+}
+
 /* Modal content (to let user close the modal when clicking outside) */
 .custom-modal-content {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
-  /* background-color: rgba(0, 0, 0, 0); */
 }
 
 /* Modal Header (on top, contains close icon)  */
