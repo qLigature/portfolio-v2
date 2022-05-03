@@ -1,0 +1,32 @@
+/* Inside of modal */
+.modal {
+  background-color: black;
+  color: white;
+  /* border-radius: 0.5rem; */
+  height: 70vh;
+  width: 70vw;
+  /* animation: modal-fadein 0.3s; */
+  /* z-index: 999; */
+  display: none;
+}
+
+/* Outside of modal */
+.modal::backdrop {
+  background: rgb(0 0 0 / 0.7);
+}
+
+/* Fade in animation for modal when opened */
+@keyframes modal-fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Modal content (to let user close the modal when clicking outside) */
+.modal-content {
+  margin: 0;
+  padding: 0;
+}

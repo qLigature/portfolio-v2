@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="./resources/css/button.css" />
     <link rel="stylesheet" href="./resources/css/scrolldown.css" />
     <link rel="stylesheet" href="./resources/css/fadein.css" />
+    <link rel="stylesheet" href="./resources/css/modal.css" />
 
     <script src="./resources/js/vunit.js"></script>
     <script>
@@ -147,16 +148,37 @@
       <section id="projects" class="projects container">
         <h2>Projects</h2>
         <article class="row project-grid gap-5 gap-sm-4 gap-md-1 gap-lg-4">
-          <div class="project-card project1 col-12 col-sm-5">
+          <!-- Cards -->
+          <div
+            class="project-card project1 col-12 col-sm-5"
+            data-target="modal1"
+          >
             <h3 class="project-title">Hauling Company Landing Page</h3>
             <p class="project-tools">HTML CSS JavaScript Bootstrap</p>
             <ul class="project-links">
-              <li><a href="#" class="project-demo">Demo</a></li>
-              <li><a href="#" class="project-source">GitHub</a></li>
+              <li>
+                <a
+                  class="project-demo"
+                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                  target="_blank"
+                  >Demo</a
+                >
+              </li>
+              <li>
+                <a
+                  class="project-source"
+                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                  target="_blank"
+                  >GitHub</a
+                >
+              </li>
             </ul>
           </div>
 
-          <div class="project-card project1 col-12 col-sm-5">
+          <div
+            class="project-card project1 col-12 col-sm-5"
+            data-target="modal2"
+          >
             <h3 class="project-title">Responsive Portfolio Website v1.0</h3>
             <p class="project-tools">HTML CSS JavaScript Bootstrap</p>
             <ul class="project-links">
@@ -165,7 +187,10 @@
             </ul>
           </div>
 
-          <div class="project-card project1 col-12 col-sm-5">
+          <div
+            class="project-card project1 col-12 col-sm-5"
+            data-target="modal3"
+          >
             <h3 class="project-title">
               Drone Delivery Platform for Emergency Supplies
             </h3>
@@ -178,7 +203,10 @@
             </ul>
           </div>
 
-          <div class="project-card project1 col-12 col-sm-5">
+          <div
+            class="project-card project1 col-12 col-sm-5"
+            data-target="modal4"
+          >
             <h3 class="project-title">
               Easyreader: PDF Parser for EasyTrip SOA
             </h3>
@@ -188,7 +216,10 @@
             </ul>
           </div>
 
-          <div class="project-card project1 col-12 col-sm-5">
+          <div
+            class="project-card project1 col-12 col-sm-5"
+            data-target="modal5"
+          >
             <h3 class="project-title">ECommerce Website for Room Rentals</h3>
             <p class="project-tools">MongoDB Express.js ReactJS Node.js</p>
             <ul class="project-links">
@@ -197,7 +228,10 @@
             </ul>
           </div>
 
-          <div class="project-card project1 col-12 col-sm-5">
+          <div
+            class="project-card project1 col-12 col-sm-5"
+            data-target="modal6"
+          >
             <h3 class="project-title">
               Common Interview Questions for Web Developers
             </h3>
@@ -210,7 +244,10 @@
             </ul>
           </div>
 
-          <div class="project-card project1 col-12 col-sm-5">
+          <div
+            class="project-card project1 col-12 col-sm-5"
+            data-target="modal7"
+          >
             <h3 class="project-title">Social Media Web App</h3>
             <p class="project-tools">PostgreSQL Express.js ReactJS Node.js</p>
             <ul class="project-links">
@@ -219,6 +256,37 @@
             </ul>
           </div>
         </article>
+
+        <!-- Modals -->
+        <dialog id="modal1" class="modal">
+          <!-- <div class="modal-bar"><img src="close.svg" /></div> -->
+          <!-- <div class="modal-img"></div> -->
+          <div class="modal-text">
+            <h1>This is a modal1!</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
+              qui!
+            </p>
+          </div>
+          <div class="custom-btn modal-close">
+            <a href="#"><span>Close</span></a>
+          </div>
+        </dialog>
+
+        <dialog id="modal2" class="modal">
+          <!-- <div class="modal-bar"><img src="close.svg" /></div> -->
+          <!-- <div class="modal-img"></div> -->
+          <div class="modal-text">
+            <h1>This is a modal2!</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
+              qui!
+            </p>
+          </div>
+          <div class="custom-btn modal-close">
+            <a href="#"><span>Close</span></a>
+          </div>
+        </dialog>
       </section>
 
       <!-- Tools/Skills -->
@@ -382,5 +450,6 @@
       defer
     ></script>
     <script src="./resources/js/index.js" defer></script>
+    <script src="./resources/js/modal.js" defer></script>
   </body>
 </html>
