@@ -6,6 +6,7 @@
   height: 20rem;
   /* border-radius: 0.8rem; */
   transition: all 0.2s;
+  margin-bottom: 0.5rem;
 }
 
 .project-card:hover {
