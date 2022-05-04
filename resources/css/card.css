@@ -72,10 +72,10 @@
   }
 
   .project-demo:hover {
-    color: gray;
+    color: #feb139;
   }
 
   .project-source:hover {
-    color: gray;
+    color: #40dfef;
   }
 }

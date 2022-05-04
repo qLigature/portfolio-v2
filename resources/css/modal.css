@@ -139,6 +139,10 @@
   align-items: center;
 }
 
+.custom-modal-links li a:hover {
+  color: black;
+}
+
 .modal-demo {
   color: white;
   font-weight: bold;
@@ -156,19 +160,19 @@
 @media (hover: hover) {
   .custom-modal-close:hover {
     cursor: pointer;
-    filter: invert(79%) sepia(0%) saturate(9%) hue-rotate(191deg)
-      brightness(88%) contrast(85%);
+    filter: brightness(0) saturate(100%) invert(47%) sepia(22%) saturate(1814%)
+      hue-rotate(313deg) brightness(94%) contrast(96%);
   }
 
   .modal-demo:hover {
     cursor: pointer;
-    filter: invert(79%) sepia(0%) saturate(9%) hue-rotate(191deg)
-      brightness(88%) contrast(85%);
+    filter: brightness(0) saturate(100%) invert(85%) sepia(19%) saturate(3225%)
+      hue-rotate(329deg) brightness(101%) contrast(99%);
   }
 
   .modal-source:hover {
     cursor: pointer;
-    filter: invert(79%) sepia(0%) saturate(9%) hue-rotate(191deg)
-      brightness(88%) contrast(85%);
+    filter: brightness(0) saturate(100%) invert(84%) sepia(16%) saturate(6076%)
+      hue-rotate(153deg) brightness(106%) contrast(87%);
   }
 }
