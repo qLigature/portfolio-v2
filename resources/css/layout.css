@@ -6,11 +6,9 @@ body {
   grid-row-gap: 0px;
 }
 
-/* TODO: FIX 100VH ASAP */
 main {
   grid-area: 1 / 2 / 7 / 4;
   overflow: auto;
-  /* height: 100vh; */
   scroll-behavior: smooth;
 }
 
@@ -18,6 +16,7 @@ section {
   width: 85%;
 }
 
+/* Sidebar */
 .sidebar {
   grid-area: 1 / 1 / 7 / 2;
   height: 100%;
@@ -41,14 +40,33 @@ section {
   width: 80%;
 }
 
+/* About Us */
 .about-text {
   width: 65%;
 }
 
+/* Projects */
 .project-grid {
   margin-left: 0.5rem;
 }
 
+.custom-modal-title {
+  font-size: 1.3rem;
+}
+
+.custom-modal-tools {
+  font-size: 0.7rem;
+}
+
+.custom-modal-description {
+  font-size: 0.8rem;
+}
+
+.custom-modal-links li a {
+  font-size: 0.8rem;
+}
+
+/* Skills */
 .skill-list {
   padding-left: 0;
   width: 90%;
