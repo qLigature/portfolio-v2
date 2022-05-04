@@ -62,12 +62,6 @@
     brightness(104%) contrast(101%);
 }
 
-.custom-modal-close:hover {
-  cursor: pointer;
-  filter: invert(79%) sepia(0%) saturate(9%) hue-rotate(191deg) brightness(88%)
-    contrast(85%);
-}
-
 /* External Link icon */
 .custom-modal-external {
   position: relative;
@@ -153,20 +147,29 @@
   text-decoration: none;
 }
 
-.modal-demo:hover {
-  cursor: pointer;
-  filter: invert(79%) sepia(0%) saturate(9%) hue-rotate(191deg) brightness(88%)
-    contrast(85%);
-}
-
 .modal-source {
   color: white;
   font-weight: bold;
   text-decoration: none;
 }
 
-.modal-source:hover {
-  cursor: pointer;
-  filter: invert(79%) sepia(0%) saturate(9%) hue-rotate(191deg) brightness(88%)
-    contrast(85%);
+/* Hover States for Icons/Links */
+@media (hover: hover) {
+  .custom-modal-close:hover {
+    cursor: pointer;
+    filter: invert(79%) sepia(0%) saturate(9%) hue-rotate(191deg)
+      brightness(88%) contrast(85%);
+  }
+
+  .modal-demo:hover {
+    cursor: pointer;
+    filter: invert(79%) sepia(0%) saturate(9%) hue-rotate(191deg)
+      brightness(88%) contrast(85%);
+  }
+
+  .modal-source:hover {
+    cursor: pointer;
+    filter: invert(79%) sepia(0%) saturate(9%) hue-rotate(191deg)
+      brightness(88%) contrast(85%);
+  }
 }
