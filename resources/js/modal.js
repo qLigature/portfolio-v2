@@ -5,7 +5,10 @@ Array.from(cards).forEach((card) => {
   const demoLink = card.querySelector(".project-demo");
   const sourceLink = card.querySelector(".project-source");
 
-  demoLink.addEventListener("click", (e) => e.stopPropagation());
+  if (demoLink) {
+    demoLink.addEventListener("click", (e) => e.stopPropagation());
+  }
+
   sourceLink.addEventListener("click", (e) => e.stopPropagation());
 
   // add event listener to each card
