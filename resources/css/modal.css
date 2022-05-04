@@ -3,8 +3,6 @@
   background-color: black;
   color: white;
   border: 1px solid white;
-  /* border-radius: 0.5rem; */
-  height: 700px;
   width: 700px;
   padding: 0;
   animation: modal-fadein 0.4s;
@@ -46,6 +44,8 @@
 .custom-modal-content {
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Modal Header (on top, contains close icon)  */
@@ -129,6 +129,7 @@
 .custom-modal-links {
   list-style: none;
   padding-left: 1rem;
+  margin-top: auto;
   margin-bottom: 0;
   display: flex;
 }
