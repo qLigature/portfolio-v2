@@ -26,18 +26,31 @@
 }
 
 .project-links {
+  font-size: 0.9rem;
   list-style: none;
   padding-left: 0;
+  display: flex;
 }
 
 .project-links li {
   display: inline-block;
 }
 
+.view-button {
+  display: inline-block;
+  margin-right: auto;
+}
+
+.project-view {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .project-demo {
   color: white;
   font-weight: bold;
-  margin-right: 0.5rem;
+  margin-right: 0.7rem;
   text-decoration: none;
 }
 
@@ -45,12 +58,17 @@
   color: white;
   font-weight: bold;
   text-decoration: none;
+  margin-right: auto;
 }
 
 @media (hover: hover) {
   .project-card:hover {
     transform: scale(1.01, 1.01);
     cursor: pointer;
+  }
+
+  .project-view:hover {
+    color: gray;
   }
 
   .project-demo:hover {

@@ -156,6 +156,9 @@
             <h3 class="project-title">Hauling Company Landing Page</h3>
             <p class="project-tools">HTML CSS JavaScript Bootstrap</p>
             <ul class="project-links">
+              <div class="view-button">
+                <a class="project-view" href="#">Read More &#187;</a>
+              </div>
               <li>
                 <a
                   class="project-demo"
@@ -182,8 +185,25 @@
             <h3 class="project-title">Responsive Portfolio Website v1.0</h3>
             <p class="project-tools">HTML CSS JavaScript Bootstrap</p>
             <ul class="project-links">
-              <li><a href="#" class="project-demo">Demo</a></li>
-              <li><a href="#" class="project-source">GitHub</a></li>
+              <div class="view-button">
+                <a class="project-view" href="#">Read More &#187;</a>
+              </div>
+              <li>
+                <a
+                  class="project-demo"
+                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                  target="_blank"
+                  >Demo</a
+                >
+              </li>
+              <li>
+                <a
+                  class="project-source"
+                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                  target="_blank"
+                  >GitHub</a
+                >
+              </li>
             </ul>
           </div>
 
@@ -267,63 +287,15 @@
               class="custom-modal-close"
             />
           </div>
-          <div class="custom-modal-img"></div>
-          <div class="custom-modal-text">
-            <h3 class="custom-modal-title">Hauling Company Landing Page</h3>
-            <p class="custom-modal-tools">HTML CSS JavaScript Bootstrap</p>
-            <p class="custom-modal-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
-              ut, alias laborum laudantium ab omnis unde perferendis quasi
-              maxime quisquam reprehenderit tempore nostrum ex sunt at nihil
-              sapiente asperiores minus! Repellendus ullam soluta aliquid
-              inventore voluptatibus, ea pariatur quos nihil!
-            </p>
-          </div>
-          <ul class="custom-modal-links">
-            <li>
-              <a
-                class="modal-demo"
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                target="_blank"
-                ><img
-                  src="./resources/images/external.svg"
-                  class="custom-modal-external"
-                />Demo</a
-              >
-            </li>
-            <li>
-              <a
-                class="modal-source"
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                target="_blank"
-                ><img
-                  src="./resources/images/github.svg"
-                  class="custom-modal-github"
-                />
-                GitHub</a
-              >
-            </li>
-          </ul>
-        </div>
-      </dialog>
-
-      <dialog id="modal2" class="custom-modal">
-        <div class="custom-modal-content">
-          <div class="custom-modal-header">
-            <img
-              src="./resources/images/icons/close.svg"
-              class="custom-modal-close"
-            />
-          </div>
           <div
-            id="carouselExampleIndicators"
+            id="custom-modal-carousel1"
             class="carousel slide"
             data-bs-ride="carousel"
           >
             <div class="carousel-indicators">
               <button
                 type="button"
-                data-bs-target="#carouselExampleIndicators"
+                data-bs-target="#custom-modal-carousel1"
                 data-bs-slide-to="0"
                 class="active"
                 aria-current="true"
@@ -331,13 +303,13 @@
               ></button>
               <button
                 type="button"
-                data-bs-target="#carouselExampleIndicators"
+                data-bs-target="#custom-modal-carousel1"
                 data-bs-slide-to="1"
                 aria-label="Slide 2"
               ></button>
               <button
                 type="button"
-                data-bs-target="#carouselExampleIndicators"
+                data-bs-target="#custom-modal-carousel1"
                 data-bs-slide-to="2"
                 aria-label="Slide 3"
               ></button>
@@ -356,26 +328,132 @@
             <button
               class="carousel-control-prev"
               type="button"
-              data-bs-target="#carouselExampleIndicators"
+              data-bs-target="#custom-modal-carousel1"
               data-bs-slide="prev"
             >
               <span
                 class="carousel-control-prev-icon"
                 aria-hidden="true"
               ></span>
-              <span class="visually-hidden">Previous</span>
             </button>
             <button
               class="carousel-control-next"
               type="button"
-              data-bs-target="#carouselExampleIndicators"
+              data-bs-target="#custom-modal-carousel1"
               data-bs-slide="next"
             >
               <span
                 class="carousel-control-next-icon"
                 aria-hidden="true"
               ></span>
-              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="custom-modal-text">
+            <h3 class="custom-modal-title">Hauling Company Landing Page</h3>
+            <p class="custom-modal-tools">HTML CSS JavaScript Bootstrap</p>
+            <p class="custom-modal-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+              ut, alias laborum laudantium ab omnis unde perferendis quasi
+              maxime quisquam reprehenderit tempore nostrum ex sunt at nihil
+              sapiente asperiores minus! Repellendus ullam soluta aliquid
+              inventore voluptatibus, ea pariatur quos nihil!
+            </p>
+          </div>
+          <ul class="custom-modal-links">
+            <li>
+              <a
+                class="modal-demo"
+                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                target="_blank"
+                ><img
+                  src="./resources/images/icons/external.svg"
+                  class="custom-modal-external"
+                />Demo</a
+              >
+            </li>
+            <li>
+              <a
+                class="modal-source"
+                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                target="_blank"
+                ><img
+                  src="./resources/images/icons/github.svg"
+                  class="custom-modal-github"
+                />
+                GitHub</a
+              >
+            </li>
+          </ul>
+        </div>
+      </dialog>
+
+      <dialog id="modal2" class="custom-modal">
+        <div class="custom-modal-content">
+          <div class="custom-modal-header">
+            <img
+              src="./resources/images/icons/close.svg"
+              class="custom-modal-close"
+            />
+          </div>
+          <div
+            id="custom-modal-carousel2"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#custom-modal-carousel2"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#custom-modal-carousel2"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#custom-modal-carousel2"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="custom-modal-img"></div>
+              </div>
+              <div class="carousel-item">
+                <div class="custom-modal-img2"></div>
+              </div>
+              <div class="carousel-item">
+                <div class="custom-modal-img3"></div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#custom-modal-carousel2"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#custom-modal-carousel2"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
             </button>
           </div>
           <div class="custom-modal-text">
