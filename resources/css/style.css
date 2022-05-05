@@ -92,21 +92,6 @@ section h2 {
   font-weight: bold;
 }
 
-/* Projects */
-
-.project1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.274), rgba(0, 0, 0, 0.884)),
-    url("../images/project1.png");
-}
-
-.project1:hover {
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0),
-      rgba(0, 0, 0, 0.781)
-    ),
-    url("../images/project1.png");
-}
-
 /* Skills */
 
 .skill-list {
