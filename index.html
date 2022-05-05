@@ -498,12 +498,23 @@
               Easyreader: PDF Parser for EasyTrip SOA
             </h3>
             <p class="custom-modal-tools">Python Pandas Tabula-py Selenium</p>
+            <p class="custom-modal-description pb-2">
+              Easyreader is a CLI app for parsing Statement of Account PDFs from
+              Easytrip for easy processing of transactions. It takes in a single
+              date, automatically downloads the correct SOA in Easytrip's
+              website with Selenium, parses and cleans the PDF data using
+              Tabula.py, then saves the processed SOA data as a .csv file.
+            </p>
             <p class="custom-modal-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
-              ut, alias laborum laudantium ab omnis unde perferendis quasi
-              maxime quisquam reprehenderit tempore nostrum ex sunt at nihil
-              sapiente asperiores minus! Repellendus ullam soluta aliquid
-              inventore voluptatibus, ea pariatur quos nihil!
+              I started this project when management in Greenback Winner
+              Enterprise needed help detecting overcharging. Everyday, some
+              transactions were mistakenly being charged more than usual by
+              Easytrip's system, and a single SOA could take hours of checking
+              due to the only available format of the SOA being a PDF. The
+              problem was, Easytrip did not have a built-in API at all, and so
+              the only way to detect these overcharges was to download the PDF,
+              parse it accurately, and then process the tabular data. Python was
+              used primarily for the use of Pandas.
             </p>
           </div>
           <ul class="custom-modal-links">
