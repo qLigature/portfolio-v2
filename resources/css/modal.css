@@ -51,7 +51,7 @@
 /* Modal Header (on top, contains close icon)  */
 .custom-modal-header {
   text-align: right;
-  padding: 0.5rem 0.5rem;
+  padding: 0.2rem;
 }
 
 /* Close icon */
@@ -111,11 +111,13 @@
 
 .custom-modal-title {
   font-weight: bold;
+  margin-bottom: 0.25rem;
 }
 
 .custom-modal-tools {
   font-weight: bold;
   word-spacing: 0.4rem;
+  margin-bottom: 0.5rem;
   color: gray;
 }
 
