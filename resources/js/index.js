@@ -73,3 +73,18 @@ scrollCheck();
 if (screenWidth >= laptopWidth) {
   main.addEventListener("scroll", scrollCheck);
 }
+
+const mailName = document.getElementById("name");
+const mailMessage = document.getElementById("txt-message");
+const submitBtn = document.getElementById("contact-submit-btn");
+
+const sendMail = e => {
+  e.stopPropagation();
+
+  const name = mailName.value;
+  const message = mailMessage.value;
+
+  window.location.href = `mailto:wilson.reyes9290@gmail.com?subject=Inquiry from - ${name}&body=${message}`;
+}
+
+submitBtn.addEventListener("click", sendMail);
