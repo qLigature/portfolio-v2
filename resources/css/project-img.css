@@ -65,21 +65,115 @@
 }
 
 /* Modal Picture */
-.custom-modal-img {
+.custom-modal1-img1 {
   width: 100%;
   height: 300px;
-  background-image: url("../images/project1.png");
+  background-image: url("../images/lakbay1.png");
   background-size: cover;
 }
-.custom-modal-img2 {
+.custom-modal1-img2 {
   width: 100%;
   height: 300px;
-  background-image: url("../images/project2.png");
+  background-image: url("../images/lakbay2.png");
   background-size: cover;
 }
-.custom-modal-img3 {
+.custom-modal1-img3 {
   width: 100%;
   height: 300px;
-  background-image: url("../images/project3.png");
+  background-image: url("../images/lakbay3.png");
+  background-size: cover;
+}
+.custom-modal1-img4 {
+  width: 100%;
+  height: 300px;
+  background-image: url("../images/lakbay4.png");
+  background-size: cover;
+}
+
+.custom-modal2-img1 {
+  width: 100%;
+  height: 300px;
+  background-image: url("../images/easyreader2.png");
+  background-size: cover;
+}
+.custom-modal2-img2 {
+  width: 100%;
+  height: 300px;
+  background-image: url("../images/easyreader1.png");
+  background-size: cover;
+}
+.custom-modal2-img3 {
+  width: 100%;
+  height: 300px;
+  background-image: url("../images/easyreader3.png");
+  background-size: cover;
+}
+
+.custom-modal3-img1 {
+  width: 100%;
+  height: 300px;
+  background-image: url("../images/aerialcare1.png");
+  background-size: cover;
+}
+.custom-modal3-img2 {
+  width: 100%;
+  height: 300px;
+  background-image: url("../images/aerialcare2.png");
+  background-size: cover;
+}
+.custom-modal3-img3 {
+  width: 100%;
+  height: 300px;
+  background-image: url("../images/aerialcare3.png");
+  background-size: cover;
+}
+
+.custom-modal4-img1 {
+  width: 100%;
+  height: 300px;
+  background-image: url("../images/know1.png");
+  background-size: cover;
+}
+.custom-modal4-img2 {
+  width: 100%;
+  height: 300px;
+  background-image: url("../images/know2.png");
+  background-size: cover;
+}
+.custom-modal4-img3 {
+  width: 100%;
+  height: 300px;
+  background-image: url("../images/know4.png");
+  background-size: cover;
+}
+.custom-modal4-img4 {
+  width: 100%;
+  height: 300px;
+  background-image: url("../images/know3.png");
+  background-size: cover;
+}
+
+.custom-modal5-img1 {
+  width: 100%;
+  height: 300px;
+  background-image: url("../images/notalone2.png");
+  background-size: cover;
+}
+.custom-modal5-img2 {
+  width: 100%;
+  height: 300px;
+  background-image: url("../images/notalone1.png");
+  background-size: cover;
+}
+.custom-modal5-img3 {
+  width: 100%;
+  height: 300px;
+  background-image: url("../images/notalone3.png");
+  background-size: cover;
+}
+.custom-modal5-img4 {
+  width: 100%;
+  height: 300px;
+  background-image: url("../images/notalone4.png");
   background-size: cover;
 }
