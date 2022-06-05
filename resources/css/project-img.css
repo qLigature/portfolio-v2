@@ -1,15 +1,67 @@
 /* Card Pictures */
-.project1 {
+.card1-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.274), rgba(0, 0, 0, 0.884)),
-    url("../images/project1.png");
+    url("../images/lakbay1.png");
 }
 
-.project1:hover {
+.card1-img:hover {
   background-image: linear-gradient(
       rgba(255, 255, 255, 0),
       rgba(0, 0, 0, 0.781)
     ),
-    url("../images/project1.png");
+    url("../images/lakbay1.png");
+}
+
+.card2-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.274), rgba(0, 0, 0, 0.884)),
+    url("../images/easyreader2.png");
+}
+
+.card2-img:hover {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(0, 0, 0, 0.781)
+    ),
+    url("../images/easyreader2.png");
+}
+
+.card3-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.274), rgba(0, 0, 0, 0.884)),
+    url("../images/aerialcare1.png");
+}
+
+.card3-img:hover {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(0, 0, 0, 0.781)
+    ),
+    url("../images/aerialcare1.png");
+}
+
+.card4-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.274), rgba(0, 0, 0, 0.884)),
+    url("../images/know1.png");
+}
+
+.card4-img:hover {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(0, 0, 0, 0.781)
+    ),
+    url("../images/know1.png");
+}
+
+.card5-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.274), rgba(0, 0, 0, 0.884)),
+    url("../images/notalone2.png");
+}
+
+.card5-img:hover {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(0, 0, 0, 0.781)
+    ),
+    url("../images/notalone2.png");
 }
 
 /* Modal Picture */
